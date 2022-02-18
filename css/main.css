@@ -21,7 +21,7 @@ body {
   top: 16px;
   left: 29px;
   border-radius: 12px 12px 0 0;
-  background: url(../images/logo.png) center 20px, url(../images/logo-name.png) center 84px;
+  background: url(/images/logo.png) center 20px, url(/images/logo-name.png) center 84px;
   background-repeat: no-repeat;
   background-color: #191A24;
 }
@@ -103,7 +103,7 @@ body {
   font-size: 12px;
   width: 75px;
   padding-left: 14px;
-  background: url(../images/icon-flag-us.png) no-repeat 15% center, url(../images/arrow.png) no-repeat 85% 52%;
+  background: url(/images/icon-flag-us.png) no-repeat 15% center, url(/images/arrow.png) no-repeat 85% 52%;
   background-color: #242633;
 }
 
@@ -126,7 +126,7 @@ body {
   width: 36px;
   line-height: 36px;
   font-size: 12px;
-  background: url(../images/img-speaker.png) no-repeat center;
+  background: url(/images/img-speaker.png) no-repeat center;
   margin-left: 11px;
 }
 
@@ -205,27 +205,27 @@ body {
 }
 
 .statistics__item_online {
-  background: url("../images/icon-online.png") left 6px no-repeat;
+  background: url("/images/icon-online.png") left 6px no-repeat;
 }
 
 .statistics__item_cases-open {
-  background: url("../images/icon-cases.png") left 6px no-repeat;
+  background: url("/images/icon-cases.png") left 6px no-repeat;
 }
 
 .statistics__item_contracts {
-  background: url("../images/icon-contracts.png") left 6px no-repeat;
+  background: url("/images/icon-contracts.png") left 6px no-repeat;
 }
 
 .statistics__item_upgrades {
-  background: url("../images/icon-upgrades.png") left 6px no-repeat;
+  background: url("/images/icon-upgrades.png") left 6px no-repeat;
 }
 
 .statistics__item_battles {
-  background: url("../images/icon-battles.png") left 6px no-repeat;
+  background: url("/images/icon-battles.png") left 6px no-repeat;
 }
 
 .statistics__item_users {
-  background: url("../images/icon-users.png") left 6px no-repeat;
+  background: url("/images/icon-users.png") left 6px no-repeat;
 }
 
 .socials {
@@ -289,7 +289,7 @@ body {
   height: 104px;
   left: 0;
   top: 0;
-  background: url(../images/gradient-left.png) no-repeat 0 0;
+  background: url(/images/gradient-left.png) no-repeat 0 0;
 }
 
 .live-drop:hover::before {
@@ -304,7 +304,7 @@ body {
   height: 104px;
   right: 0;
   top: 0;
-  background: url(../images/gradient-right.png) no-repeat 0 0;
+  background: url(/images/gradient-right.png) no-repeat 0 0;
 }
 
 .live-drop:hover::after {
@@ -327,9 +327,8 @@ body {
 }
 
 .live-drop__item_yellow {
-  background: url(../images/item-logo-yellow.png) no-repeat center, -o-linear-gradient(bottom, rgba(255, 148, 22, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-yellow.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(255, 148, 22, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-yellow.png) no-repeat center, linear-gradient(0deg, rgba(255, 148, 22, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-yellow.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(255, 148, 22, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-yellow.png) no-repeat center, linear-gradient(0deg, rgba(255, 148, 22, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_yellow::before {
@@ -345,9 +344,8 @@ body {
 }
 
 .live-drop__item_red {
-  background: url(../images/item-logo-red.png) no-repeat center, -o-linear-gradient(bottom, rgba(252, 53, 40, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-red.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(252, 53, 40, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-red.png) no-repeat center, linear-gradient(0deg, rgba(252, 53, 40, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-red.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(252, 53, 40, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-red.png) no-repeat center, linear-gradient(0deg, rgba(252, 53, 40, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_red::before {
@@ -363,9 +361,8 @@ body {
 }
 
 .live-drop__item_white {
-  background: url(../images/item-logo-white.png) no-repeat center, -o-linear-gradient(bottom, rgba(143, 143, 143, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-white.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(143, 143, 143, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-white.png) no-repeat center, linear-gradient(0deg, rgba(143, 143, 143, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-white.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(143, 143, 143, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-white.png) no-repeat center, linear-gradient(0deg, rgba(143, 143, 143, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_white::before {
@@ -381,9 +378,8 @@ body {
 }
 
 .live-drop__item_light-blue {
-  background: url(../images/item-logo-light-blue.png) no-repeat center, -o-linear-gradient(bottom, rgba(84, 202, 227, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-light-blue.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(84, 202, 227, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-light-blue.png) no-repeat center, linear-gradient(0deg, rgba(84, 202, 227, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-light-blue.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(84, 202, 227, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-light-blue.png) no-repeat center, linear-gradient(0deg, rgba(84, 202, 227, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_light-blue::before {
@@ -399,9 +395,8 @@ body {
 }
 
 .live-drop__item_blue {
-  background: url(../images/item-logo-blue.png) no-repeat center, -o-linear-gradient(bottom, rgba(71, 112, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-blue.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(71, 112, 255, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-blue.png) no-repeat center, linear-gradient(0deg, rgba(71, 112, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-blue.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(71, 112, 255, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-blue.png) no-repeat center, linear-gradient(0deg, rgba(71, 112, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_blue::before {
@@ -417,9 +412,8 @@ body {
 }
 
 .live-drop__item_purple {
-  background: url(../images/item-logo-purple.png) no-repeat center, -o-linear-gradient(bottom, rgba(121, 58, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
-  background: url(../images/item-logo-purple.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(121, 58, 255, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
-  background: url(../images/item-logo-purple.png) no-repeat center, linear-gradient(0deg, rgba(121, 58, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
+  background: url(/images/item-logo-purple.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(rgba(121, 58, 255, 0.3)), color-stop(70.43%, rgba(35, 37, 49, 0))), #252635;
+  background: url(/images/item-logo-purple.png) no-repeat center, linear-gradient(0deg, rgba(121, 58, 255, 0.3) 0%, rgba(35, 37, 49, 0) 70.43%), #252635;
 }
 
 .live-drop__item_purple::before {
@@ -487,8 +481,7 @@ body {
 .live-drop__item_active .live-drop__description {
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .nav-wrapper {
@@ -537,7 +530,7 @@ body {
 }
 
 .navigation__link-faq {
-  background: url(../images/nav-faq.png) no-repeat center left;
+  background: url(/images/nav-faq.png) no-repeat center left;
 }
 
 .navigation__icon {
@@ -909,8 +902,7 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 484px;
   height: 202px;
 }
@@ -960,8 +952,7 @@ body {
   background: #EEAC64;
   border-radius: 2px;
   -webkit-transform: matrix(0.98, 0, -0.22, 1, 0, 0);
-  -ms-transform: matrix(0.98, 0, -0.22, 1, 0, 0);
-      transform: matrix(0.98, 0, -0.22, 1, 0, 0);
+  transform: matrix(0.98, 0, -0.22, 1, 0, 0);
 }
 
 .sale__item-old-price {
@@ -970,8 +961,7 @@ body {
   top: 280px;
   left: 174px;
   -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-      transform: translate(-50%);
+  transform: translate(-50%);
   width: 46px;
   height: 32px;
   font-family: DIN Pro;
@@ -996,8 +986,7 @@ body {
   background: #DC4B42;
   border-radius: 2px;
   -webkit-transform: matrix(0.98, 0, -0.22, 1, 0, 0);
-  -ms-transform: matrix(0.98, 0, -0.22, 1, 0, 0);
-      transform: matrix(0.98, 0, -0.22, 1, 0, 0);
+  transform: matrix(0.98, 0, -0.22, 1, 0, 0);
 }
 
 .sale__item-name {
@@ -1013,7 +1002,6 @@ body {
   position: relative;
   margin-top: 61px;
   min-height: 552px;
-  background: -o-linear-gradient(top, #17171F 0%, #14141C 100%);
   background: -webkit-gradient(linear, left top, left bottom, from(#17171F), to(#14141C));
   background: linear-gradient(180deg, #17171F 0%, #14141C 100%);
 }
@@ -1090,7 +1078,6 @@ body {
   padding-left: 88px;
   width: 100%;
   margin-top: 18px;
-  background: -o-linear-gradient(189.3deg, rgba(26, 26, 32, 0.5) 19.27%, rgba(29, 29, 37, 0.5) 90.31%);
   background: linear-gradient(260.7deg, rgba(26, 26, 32, 0.5) 19.27%, rgba(29, 29, 37, 0.5) 90.31%);
   border-radius: 80px 0px 0 80px;
 }
@@ -1108,7 +1095,7 @@ body {
 }
 
 .footer-stats__item-cases {
-  background: url("../images/icon-key.png") no-repeat left 5px;
+  background: url("/images/icon-key.png") no-repeat left 5px;
 }
 
 .footer-stats__number {
@@ -1382,7 +1369,6 @@ body {
     width: 100%;
     margin-top: 18px;
     margin-left: 50px;
-    background: -o-linear-gradient(189.3deg, rgba(26, 26, 32, 0.5) 19.27%, rgba(29, 29, 37, 0.5) 90.31%);
     background: linear-gradient(260.7deg, rgba(26, 26, 32, 0.5) 19.27%, rgba(29, 29, 37, 0.5) 90.31%);
     border-radius: 80px 0px 0 80px;
   }
@@ -1434,19 +1420,17 @@ body {
   .socials__img {
     margin: 0 5px;
   }
-  .live-drop {
-    margin-top: 14px;
-    margin-left: 0;
+  .logo {
+    border-radius: 12px 12px 0 0;
+    left: 20px;
   }
   .bonuses {
-    background: none;
-  }
-  .logo {
-    border-radius: 12px;
     left: 20px;
   }
   .live-drop {
-    border-radius: 12px 12px 0 0;
+    border-radius: 0 12px 0 0;
+    margin-left: 110px;
+    margin-top: 8px;
   }
   .live-drop::before {
     display: none;
@@ -1544,8 +1528,7 @@ body {
     left: 0;
     top: 0;
     -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-        transform: translate(0, 0);
+    transform: translate(0, 0);
   }
   .footer {
     padding-bottom: 30px;
@@ -1591,6 +1574,14 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
+  .bonuses {
+    left: 20px;
+    border-radius: 0 0 12px 12px;
+  }
+  .live-drop {
+    margin-left: 0;
+    border-radius: 12px 12px 0 0;
+  }
   .banner {
     display: -ms-grid;
     display: grid;
@@ -1651,3 +1642,4 @@ body {
     border-radius: 0;
   }
 }
+/*# sourceMappingURL=main.css.map */
